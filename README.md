@@ -14,7 +14,7 @@ This API provides currency conversion capabilities by fetching real-time exchang
   - [API](#api)
     - [Routes](#routes)
       - [index.js](#indexjs)
-      - [convert.js](#convertjs)
+      - [exchange.js](#convertjs)
     - [Controllers](#controllers)
       - [exchangeController.js](#exchangecontrollerjs)
     - [Middlewares](#middlewares)
@@ -99,8 +99,8 @@ Request:
 
 ```bash
 GET /api/convert?from=USD&to=EUR&amount=100
-
-
+```
+```bash
 Response:
 
 {
@@ -109,7 +109,8 @@ Response:
   "originalAmount": 100,
   "convertedAmount": 85.50,
   "conversionRate": 0.855
-}```
+}'
+```
 
 
 ## Code Explanation
@@ -146,6 +147,5 @@ If the currency is not supported or the request fails, an error is thrown.
 - The API will throw an error if the exchange rate for the given currencies is not available.
 - Errors related to the API fetch are handled gracefully with appropriate error messages.
 
----
 
 
