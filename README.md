@@ -7,7 +7,7 @@ This API provides currency conversion capabilities by fetching real-time exchang
 - The user must provide valid `from` and `to` currency codes, as well as an amount to convert.
 - The API key for ExchangeRate-API must be provided as an environment variable to fetch exchange rates.
 - Proper authentication is required to access the currency conversion route.
-- 
+  
 ## **Table of Contents**
 
 - [Project Structure](#project-structure)
