@@ -50,14 +50,17 @@ Before running the application, ensure you have the following:
 3.**Set up your ExchangeRate-API key**:
 
    - Go to ExchangeRate-API and sign up for an account.
-   - In the `ExchangeService.js`, replace the placeholder #API-key with your own key from [ExchangeRate-API]
    - Create a .env file in the root directory and add the following line:
-
-   ```bash
+    ```bash
       EXCHANGE_API_KEY=your_api_key_here
       EXCHANGE_RATE_API_URL = your_api_url
-      In services/ExchangeService.js, update the base URL to use the environment variable:
-   ```
+      In services/ExchangeService.js,will update the base URL to use the environment variable:
+     ```
+
+   - In the `ExchangeService.js`, replace the placeholder #API-key with your own key from [ExchangeRate-API]
+  
+
+  
 
 4. **Start the application:**
 
