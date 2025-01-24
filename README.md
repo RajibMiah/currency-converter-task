@@ -52,11 +52,11 @@ Before running the application, ensure you have the following:
    - Go to ExchangeRate-API and sign up for an account.
    - Create a .env file in the root directory and add the following line:
      
-    ```bash
-      EXCHANGE_API_KEY=your_api_key_here
-      EXCHANGE_RATE_API_URL = your_api_url
-      In services/ExchangeService.js,will update the base URL to use the environment variable:
-     ```
+      ```bash
+        EXCHANGE_API_KEY=your_api_key_here
+        EXCHANGE_RATE_API_URL = your_api_url
+        In services/ExchangeService.js,will update the base URL to use the environment variable:
+       ```
 
    - In the `ExchangeService.js`, replace the placeholder #API-key with your own key from [ExchangeRate-API]
   
