@@ -135,7 +135,7 @@ The controller contains the logic for handling the route and invoking the servic
 
 ---
 
-### Service (`/services/exchangeService.js`)
+### Service (`/services/ExchangeService.js`)
 
 The service handles the API call to ExchangeRate-API, fetches exchange rates, and performs the conversion logic.  
 If the currency is not supported or the request fails, an error is thrown.
